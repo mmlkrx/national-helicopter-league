@@ -1,0 +1,154 @@
+/* line 1, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+body, ul, h1, p, a, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+a {
+  text-decoration: none; }
+
+/* line 16, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+h1, h2, h3, h4, h5, h6, .menu-item, #logo {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 20, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+h1 {
+  margin-bottom: 3rem; }
+
+/* line 24, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+p {
+  font-family: 'Hind', sans-serif;
+  margin-bottom: 2rem; }
+
+/* line 29, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+li {
+  list-style-type: none;
+  text-align: left; }
+
+/* line 4, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+section {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  padding-top: 3rem; }
+  /* line 10, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section div {
+    height: 100%;
+    width: 100%; }
+  /* line 15, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#welcome {
+    background-color: #39B3E6; }
+    /* line 18, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#welcome h1 {
+      color: #FFFFFF;
+      font-size: 3.5rem;
+      line-height: 5.25rem;
+      margin-bottom: 3rem; }
+    /* line 24, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#welcome p {
+      color: #FFFFFF;
+      font-size: 1.3rem;
+      line-height: 1.95rem; }
+  /* line 30, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#rules {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    background-color: #D1F1FC;
+    color: #343434; }
+  /* line 36, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#quotes {
+    background-color: #F0FBFD; }
+    /* line 39, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#quotes h2 {
+      margin-bottom: 3rem; }
+  /* line 44, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#press {
+    background-color: #7BDF43; }
+    /* line 47, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#press h1 {
+      color: #FFFFFF; }
+  /* line 52, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#helicopters {
+    background-color: #755A2B;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF; }
+    /* line 57, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#helicopters img {
+      width: 600px;
+      margin-top: -6rem;
+      margin-bottom: 2rem; }
+  /* line 64, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+  section#founders {
+    background-color: #39B3E6;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+    color: #FFFFFF; }
+    /* line 69, /Users/mm/Development/code/self/nhl/source/stylesheets/index.css.scss */
+    section#founders .container {
+      width: 60%; }
+
+/* line 6, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+.container {
+  width: 60%;
+  padding-top: 13%;
+  margin: auto; }
+
+/* line 12, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+header {
+  z-index: 10;
+  width: 100%;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 2px 8px rgba(113, 113, 113, 0.5); }
+  /* line 22, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+  header .menu {
+    position: absolute;
+    right: 1rem;
+    top: 0; }
+    /* line 27, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+    header .menu .menu-item {
+      font-size: 1.2rem;
+      line-height: 3rem;
+      display: inline-block;
+      color: #343434;
+      padding: 0 0.5rem; }
+      /* line 33, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+      header .menu .menu-item:hover {
+        color: #39B3E6; }
+  /* line 39, /Users/mm/Development/code/self/nhl/source/stylesheets/globals.css.scss */
+  header #logo {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #343434;
+    margin-left: 1rem; }
+
+@media screen and (max-width: 1024px) {
+  /* line 6, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+  header #logo {
+    color: #FFFFFF; }
+    /* line 9, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+    header #logo:after {
+      content: "NHL";
+      color: #343434;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      position: absolute;
+      left: 1rem; }
+  /* line 18, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+  header .menu {
+    right: 0;
+    left: 0;
+    text-align: center; }
+    /* line 23, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+    header .menu a {
+      display: block; } }

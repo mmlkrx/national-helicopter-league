@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+  /* line 6, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+  header #logo {
+    color: #FFFFFF; }
+    /* line 9, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+    header #logo:after {
+      content: "NHL";
+      color: #343434;
+      font-size: 2.2rem;
+      line-height: 3rem;
+      position: absolute;
+      left: 1rem; }
+  /* line 18, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+  header .menu {
+    right: 0;
+    left: 0;
+    text-align: center; }
+    /* line 23, /Users/mm/Development/code/self/nhl/source/stylesheets/mobile.css.scss */
+    header .menu a {
+      display: block; } }

@@ -1,0 +1,32 @@
+/* line 1, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 7, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+body, ul, h1, p, a, textarea, figure {
+  margin: 0;
+  padding: 0; }
+
+/* line 12, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+a {
+  text-decoration: none; }
+
+/* line 16, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+h1, h2, h3, h4, h5, h6, .menu-item, #logo {
+  font-family: 'Montserrat', sans-serif; }
+
+/* line 20, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+h1 {
+  margin-bottom: 3rem; }
+
+/* line 24, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+p {
+  font-family: 'Hind', sans-serif;
+  margin-bottom: 2rem; }
+
+/* line 29, /Users/mm/Development/code/self/nhl/source/stylesheets/reset.css.scss */
+li {
+  list-style-type: none;
+  text-align: left; }
